@@ -1,12 +1,37 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "BNCI2003_IVa Motor Imagery dataset",
+  "description": "The BNCI2003_IVa Motor Imagery dataset comprises EEG recordings from 5 healthy subjects performing motor imagery tasks (right hand and feet movements) in response to visual cues. This preprocessed dataset contains 280 trials per subject acquired at 100 Hz using 118 EEG channels and represents one of the earliest and most influential motor imagery BCI datasets from BCI Competition III. The dataset has been extensively used for benchmarking brain-computer interface classification algorithms and feature extraction methods.",
+  "methods_description": "EEG data were acquired using a BrainAmp system with 118 channels at 1000 Hz sampling rate, then band-pass filtered (0.05-200 Hz) and downsampled to 100 Hz. Subjects performed motor imagery tasks (right hand or feet movements) for 3.5 seconds following visual cues presented at random intervals (1.75-2.25 s). Each subject completed one session with 280 trials total, split into training and test sets. Original recordings also included EMG and EOG channels, which were not included in the shared dataset.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Guido Dornhege": {},
     "Benjamin Blankertz": {},
     "Gabriel Curio": {},
     "Klaus-Robert Müller": {}
   },
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "common spatial patterns"
+    },
+    {
+      "term": "event-related desynchronization"
+    },
+    {
+      "term": "single-trial classification"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1109/TBME.2004.827088",
@@ -44,14 +69,11 @@
       "award_number": "FKZ 01IBB02B"
     }
   ],
-  "title": "BNCI2003_IVa Motor Imagery dataset",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "516.5 MB (8 files)"
   ],
@@ -64,30 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "The BNCI2003_IVa Motor Imagery dataset comprises EEG recordings from 5 healthy subjects performing motor imagery tasks (right hand and feet movements) in response to visual cues. Acquired with 118 EEG channels at 100 Hz sampling rate, the dataset contains 280 trials per subject and has been preprocessed with bandpass filtering (0.05-200 Hz) and downsampling. This influential dataset from BCI Competition III has been extensively used for benchmarking motor imagery classification algorithms and feature extraction methods including common spatial patterns and movement-related potentials.",
-  "methods_description": "EEG data were acquired using a BrainAmp system with 118 channels positioned according to the standard 1005 montage. Signals were bandpass filtered (0.05-200 Hz) during acquisition at 1000 Hz with 16-bit resolution (0.1 µV accuracy), then downsampled to 100 Hz. Subjects performed motor imagery tasks (right hand or feet) for 3.5 seconds following visual cues presented at random intervals (1.75-2.25 s). Each subject completed one session with 280 trials total, split into training and test sets.",
-  "keywords": [
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "common spatial patterns"
-    },
-    {
-      "term": "event-related desynchronization"
-    },
-    {
-      "term": "single-trial analysis"
-    },
-    {
-      "term": "classification"
-    }
-  ],
-  "source_hash": "763954e476121bfd83556fa39d9f625e9fcaf76b15fada7add0fd0f86725f869"
+  "source_hash": "73c683eb0c5e506b6df2746135a82a55578547b51577c7b7cb6231bbacaaa854"
 }
