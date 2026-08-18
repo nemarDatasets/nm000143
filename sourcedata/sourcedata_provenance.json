@@ -14,27 +14,33 @@
   {
    "file": "data_set_IVa_aa_mat.zip",
    "bytes": 52317557,
-   "sha256": "fed94d789fd2f97061b13fc12726f9d024912a468aaf11156bc4d87397533077"
+   "sha256": "fed94d789fd2f97061b13fc12726f9d024912a468aaf11156bc4d87397533077",
+   "subject": "1"
   },
   {
    "file": "data_set_IVa_al_mat.zip",
    "bytes": 50326414,
-   "sha256": "a7a2ea158e091a518585029ccd0998352fac5ac7890872d9452b2aa204858100"
+   "sha256": "a7a2ea158e091a518585029ccd0998352fac5ac7890872d9452b2aa204858100",
+   "subject": "2"
   },
   {
    "file": "data_set_IVa_av_mat.zip",
    "bytes": 50941660,
-   "sha256": "0cdae0f380a2c70100389cff00454da69221d30580976b113cca68c3db2ad035"
+   "sha256": "0cdae0f380a2c70100389cff00454da69221d30580976b113cca68c3db2ad035",
+   "subject": "3"
   },
   {
    "file": "data_set_IVa_aw_mat.zip",
    "bytes": 50136753,
-   "sha256": "a7cd288b9a1b7789e611a87ec53ec00fc56f55ca14ca6205f7cc1c174812570f"
+   "sha256": "a7cd288b9a1b7789e611a87ec53ec00fc56f55ca14ca6205f7cc1c174812570f",
+   "subject": "4"
   },
   {
    "file": "data_set_IVa_ay_mat.zip",
    "bytes": 50402552,
-   "sha256": "7645b5b8fec2482c0903a2d1b38ca363ef998af2b592c9980a5ea5a90895df21"
+   "sha256": "7645b5b8fec2482c0903a2d1b38ca363ef998af2b592c9980a5ea5a90895df21",
+   "subject": "5"
   }
- ]
+ ],
+ "n_subjects_recorded": 5
 }
