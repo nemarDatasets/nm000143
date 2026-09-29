@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI2003_IVa Motor Imagery dataset",
-  "description": "The BNCI2003_IVa Motor Imagery dataset comprises EEG recordings from 5 healthy subjects performing motor imagery tasks (right hand and feet movements) in response to visual cues. This preprocessed dataset contains 280 trials per subject acquired at 100 Hz using 118 EEG channels and represents one of the earliest and most influential motor imagery BCI datasets from BCI Competition III. The data has been extensively used for benchmarking brain-computer interface classification algorithms and feature extraction methods.",
-  "methods_description": "EEG data were acquired using a BrainAmp system with 118 channels at 1000 Hz sampling rate, then band-pass filtered (0.05-200 Hz) and downsampled to 100 Hz for offline analysis. Subjects performed motor imagery tasks (right hand or feet) for 3.5 seconds following visual cues presented at random intervals (1.75-2.25 s). The dataset includes 280 trials per subject split into labeled training and unlabeled test sets.",
+  "description": "EEG recordings from five healthy participants performing cued motor imagery (right hand versus foot) with 118 electrodes, originally published to demonstrate improved single-trial classification through feature combination and multiclass paradigms. The data were downsampled to 100 Hz and comprise 280 cued trials per subject, split into labeled training and unlabeled test sets. The dataset was part of BCI Competition III and is widely used for benchmarking BCI classification algorithms.",
+  "methods_description": "EEG was recorded with BrainAmp amplifiers from 118 channels, band-pass filtered at 0.05-200 Hz and sampled at 1000 Hz, then downsampled to 100 Hz. Subjects imagined right hand or right foot movement for 3.5 s following a visual cue, with random inter-trial intervals of 1.75-2.25 s.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -14,13 +14,13 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "motor imagery"
     },
     {
       "term": "brain-computer interface"
-    },
-    {
-      "term": "EEG"
     },
     {
       "term": "common spatial patterns"
@@ -29,7 +29,12 @@
       "term": "event-related desynchronization"
     },
     {
-      "term": "single-trial classification"
+      "term": "single-trial analysis"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -61,11 +66,11 @@
   ],
   "funding_references": [
     {
-      "funder_name": "Bundesministerium für Bildung und Forschung",
+      "funder_name": "Bundesministerium für Bildung und Forschung (BMBF)",
       "award_number": "FKZ 01IBB02A"
     },
     {
-      "funder_name": "Bundesministerium für Bildung und Forschung",
+      "funder_name": "Bundesministerium für Bildung und Forschung (BMBF)",
       "award_number": "FKZ 01IBB02B"
     }
   ],
@@ -75,7 +80,7 @@
     "eeg"
   ],
   "sizes": [
-    "770.6 MB (13 files)"
+    "735 MB (13 files)"
   ],
   "formats": [
     ".bdf",
